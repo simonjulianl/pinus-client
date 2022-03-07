@@ -42,7 +42,7 @@
     "react-markdown": "^8.0.0",
     "react-redux": "^7.2.2",
     "react-redux-firebase": "^3.10.0",
-    "react-responsive-carousel": "^3.2.18",
+    "react-responsive-carousel": "^3.2.23",
     "react-select": "^5.2.1",
     "react-twitter-share-link": "^1.2.1",
     "redux-devtools-extension": "^2.13.9",
