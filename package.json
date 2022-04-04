@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^15.10.0",
-    "@reduxjs/toolkit": "^1.5.1",
+    "@reduxjs/toolkit": "^1.8.1",
     "apisauce": "^2.1.1",
     "axios": "^0.25.0",
     "babel-polyfill": "^6.26.0",
