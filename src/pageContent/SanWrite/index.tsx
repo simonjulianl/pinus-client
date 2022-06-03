@@ -70,14 +70,26 @@ const SanWriteContent = ({
         value={content || ""}
         placeholder="Your message"
         onChange={(event) => setContent(event.target.value)}
+        disabled={isLoading}
       />
+
       <p>&nbsp;</p>
       <Text fontSize="xl"> Your name </Text>
-      <Input
-        value={writer || ""}
-        placeholder="Your name"
-        onChange={(event) => setWriter(event.target.value)}
-      />
+      <div
+        style={{
+          opacity: isLoading ? 0.1 : 1,
+          pointerEvents: isLoading ? "none" : "initial",
+          display: "contents",
+        }}
+      >
+        <Input
+          value={writer || ""}
+          placeholder="Your name"
+          onChange={(event) => setWriter(event.target.value)}
+          disabled={isLoading}
+        />
+      </div>
+
       <p>&nbsp;</p>
       <Text fontSize="xl"> Picture (optional) </Text>
       <img src={preview} alt={preview} />
